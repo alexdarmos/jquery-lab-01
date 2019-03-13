@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+</head>
+<body>
+    <main class="container">
+        <div id="title-container">
+            <h2>Table Finder</h2>
+            <p class="subheader">Pick your table now!</p>
+        </div>
+
+        <div id="table-container">
+            <button id="table-1" class="available bubble">1</button>
+            <button id="table-2" class="available bubble">2</button>
+            <button id="table-3" class="available bubble">3</button>
+            <button id="table-4" class="available bubble">4</button>
+            <button id="table-5" class="available bubble">5</button>
+            <button id="table-6" class="available bubble">6</button>
+            <button id="table-7" class="available bubble">7</button>
+            <button id="table-8" class="available bubble">8</button>
+            <button id="table-9" class="available bubble">9</button>
+        </div>
+
+        <div id="form-container" class="hide">
+            <button id="exit-button">x</button>
+            <h3 id="reservation-text">New Reservations</h3>
+            <p>Table Number: <span id="table-number">3</span></p>
+            <input id="name" type="text" placeholder="Name"/>
+            <input id="phone-number" type="number" placeholder="Phone Number"/>
+            <input id="party-size" type="number" placeholder="Party Size"/>
+            <button id="save-button">Save</button>
+        </div>
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

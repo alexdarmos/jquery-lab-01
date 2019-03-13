@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+    background-color: #e1d7d4;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subheader {
+    text-align: center;
+}
+
+.reservation-text {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+#title-container > h2 {
+    color: #E34E45;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+.available {
+    cursor: pointer;
+    background-color: eee;
+}
+
+.reserved {
+    cursor: not-allowed;
+    background-color: #adaaaa;
+    color: white;
+}
+
+#table-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    border-radius: 2%;
+
+}
+
+.bubble {
+    width: 76px;
+    height: 76px;
+    /* border: solid 1px #ff0000; */
+    border-radius: 100%;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: inherit;
+    margin: 10px;
+}
+
+#form-container {
+    flex-direction: column;
+    justify-content: start;
+    background-color: white;
+    width: 325px;
+    position: absolute;
+    margin-top: 80px;
+    padding: 25px;
+    box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.3);
+    border-radius: 2%;
+
+}
+
+#save-button {
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.3);
+    background-color: #008000;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: inherit;
+    margin-top: 25px;
+    height: 30px;
+    color:white;
+
+}
+
+input {
+    border:0;
+    border-bottom: solid 1px #ccc;
+    margin-top: 25px;
+}
+
+#exit-button {
+    width: 25px;
+    border:0;
+    padding: 0;
+    font-size: 100%;
+    font-family: inherit;
+    align-self: flex-end;
+    color: #ccc;
+    background-color: #fff;
+
+}
+
+#reservation-text {
+    color: #E34E45;
+
+}
