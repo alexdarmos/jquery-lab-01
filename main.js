@@ -21,7 +21,10 @@ $(() => {
             $(tableNumId).prop(`disabled`,true);
             $(`#form-container`).removeClass(`show`);
             $(`#form-container`).addClass(`hide`);
-                
+            //clear form fields if filled in
+            $(`#name`).val("");
+            $(`#phone-number`).val("");
+            $(`#party-size`).val("");    
             });
         //exit button event listener
         $(`#exit-button`).on(`click`, () => {
